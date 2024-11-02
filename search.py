@@ -154,7 +154,7 @@ def gameInterface():
     
     # Give a default puzzle or have a user input a puzzle themselves
     if user_input == '1':
-        puzzle = (1, 2, 3, 4, 8, 0, 7, 6, 5)
+        puzzle = (1, 0, 3, 4, 2, 6, 7, 5, 8)
         print("Using default puzzle:")
     elif user_input == '2':
         print("Enter your puzzle, use a zero to represent the blank.")
